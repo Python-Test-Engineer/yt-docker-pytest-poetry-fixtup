@@ -1,8 +1,0 @@
-2024-06-09 07:11:13 [   DEBUG] [fixtup] manifest pyproject.toml is present : C:\Users\mrcra\Desktop\PyTest-Full-Stack\tests\_isolated_suites\docker-pytest-poetry-fixtup-RUN_ISOL\pyproject.toml (pyproject_toml.py:27)
-2024-06-09 07:11:13 [   DEBUG] [fixtup] manifest pyproject.toml is present : C:\Users\mrcra\Desktop\PyTest-Full-Stack\tests\_isolated_suites\docker-pytest-poetry-fixtup-RUN_ISOL\pyproject.toml (pyproject_toml.py:27)
-2024-06-09 07:11:13 [   DEBUG] [plumbum.local] Running ['C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker-compose.exe', 'up', '--no-start', '--remove-orphans'] (local.py:296)
-2024-06-09 07:11:13 [   DEBUG] [plumbum.local] Running ['C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker-compose.exe', 'up', '--detach'] (local.py:296)
-2024-06-09 07:11:16 [   DEBUG] [fixtup] fixture postgres does not expose hook script for event setup_data - C:\Users\mrcra\Desktop\PyTest-Full-Stack\tests\_isolated_suites\docker-pytest-poetry-fixtup-RUN_ISOL\tests\fixtures\postgres\.hooks\hook_setup_data.py (python.py:28)
-2024-06-09 07:11:16 [   DEBUG] [fixtup] start fixture: C:\Users\mrcra\AppData\Local\Temp\postgres__ddw17plz (base.py:79)
-2024-06-09 07:11:16 [   DEBUG] [fixtup] fixture postgres__ddw17plz does not expose hook script for event teardown_data - C:\Users\mrcra\AppData\Local\Temp\postgres__ddw17plz\.hooks\hook_teardown_data.py (python.py:28)
-2024-06-09 07:11:16 [   DEBUG] [fixtup] stop fixture : C:\Users\mrcra\AppData\Local\Temp\postgres__ddw17plz (base.py:90)
