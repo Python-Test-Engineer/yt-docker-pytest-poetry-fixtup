@@ -1,6 +1,5 @@
-
 services:
-  postgresql:
+  postgres:
     image: postgres:16-alpine #postgres:
     environment:
       - POSTGRES_DB=postgres # optional
@@ -29,7 +28,7 @@ services:
     image: adminer
     restart: always
     depends_on:
-      - postgresql
+      - postgres
     ports:
       - 8080:8080
 
