@@ -9,4 +9,6 @@ Copy and run from outside PyTest-Full-Stack
 - `pip install -r requirements.txt`
 - `python -m pytest -vs`
 
+If changing password for Postgres it needs to be changed in `test/fixtures/.hooks/hook_started.py` as it retries auth here.
+
 *Make sure docker is running!*

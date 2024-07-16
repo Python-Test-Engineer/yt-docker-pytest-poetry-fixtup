@@ -1,11 +1,11 @@
-version: "3.9"
+
 services:
     postgresql:
-        init: true
-        image: postgres
+        # init: true
+        image: postgres:latest
         ports:
             - "5432:5432"
         environment:
-            - POSTGRES_PASSWORD=1234
+            - POSTGRES_PASSWORD=postgres
         volumes:
             - /var/lib/postgresql

@@ -7,7 +7,7 @@ timeout = 5
 while not connected:
     try:
         conn = psycopg2.connect(
-            "host=127.0.0.1 dbname=postgres user=postgres password=1234"
+            "host=127.0.0.1 dbname=postgres user=postgres password=postgres"
         )
         connected = True
         conn.close()

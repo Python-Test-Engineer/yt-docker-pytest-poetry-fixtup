@@ -7,7 +7,7 @@ import psycopg2
 def test_postgres_should_work():
     with fixtup.up("postgres"):
         conn = psycopg2.connect(
-            "host=127.0.0.1 dbname=postgres user=postgres password=1234"
+            "host=127.0.0.1 dbname=postgres user=postgres password=postgres"
         )
         cur = conn.cursor()
         cur.execute("SELECT 1+1")
